@@ -10,14 +10,23 @@ const getFilteredMenu = async (req, res) => {
         const { category, priceRange, distance } = req.query;
 
         // 필수 파라미터 누락 여부 확인
+        let missingParams = [];
+
         if (!category) {
-            return res.status(400).json({ success: false, message: "카테고리(category)가 필요합니다." });
+            missingParams.push("카테고리(category)");
         }
         if (!priceRange) {
-            return res.status(400).json({ success: false, message: "가격대(priceRange)가 필요합니다." });
+            missingParams.push("가격대(priceRange)");
         }
         if (!distance) {
-            return res.status(400).json({ success: false, message: "거리(distance)가 필요합니다." });
+            missingParams.push("거리(distance)");
+        }
+
+        if (missingParams.length > 0) {
+            return res.status(400).json({ 
+                success: false, 
+                message: `${missingParams.join(', ')}가 필요합니다.` 
+            });
         }
 
         //조건이 변경되었을 때
@@ -59,7 +68,7 @@ const getFilteredMenu = async (req, res) => {
         // 2. 남아있는 음식이 없을 때
         if(excludedItemsGlobal.length == filteredMenu.length){
             excludedItemsGlobal = []; 
-            message = "설정하신 카테고리의 음식을 모두 확인하셨습니다. 설정하신 카테고리에 맞는 음식들을 재추천하겠습니다."
+            message = "설정하신 카테고리의 음식을 모두 확인하셨습니다. 설정하신 카테고리에 맞는 음식들을 재추천합니다."
         }
 
         //필터링된 리스트에서 아직 보지 않은 음식만 남김
