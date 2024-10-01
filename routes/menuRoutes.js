@@ -1,9 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const { getFilteredMenu } = require('../controllers/menuController');
 
-router.post('/login', (req, res) => {
-    res.send('/menu/recommand');
-});
-
+router.get('/recommend', getFilteredMenu);
 
 module.exports = router;
