@@ -126,15 +126,6 @@ module.exports = [
         "likes": 0
     },
     {
-        "food_id": 15,
-        "name": "물회",
-        "category": ["kr"],
-        "calorie": 300,
-        "price": "mid",
-        "image": "",
-        "likes": 0
-    },
-    {
         "food_id": 16,
         "name": "오징어볶음",
         "category": ["kr"],
@@ -243,15 +234,6 @@ module.exports = [
         "likes": 0
     },
     {
-        "food_id": 28,
-        "name": "오뎅",
-        "category": ["kr", "street", "jp"],
-        "calorie": 150,
-        "price": "low",
-        "image": "",
-        "likes": 0
-    },
-    {
         "food_id": 29,
         "name": "김치전",
         "category": ["kr", "street"],
@@ -342,19 +324,19 @@ module.exports = [
         "likes": 0
     },
     {
-        "food_id": 39,
-        "name": "테판야끼",
-        "category": ["jp"],
-        "calorie": 500,
-        "price": "high",
-        "image": "",
-        "likes": 0
-    },
-    {
         "food_id": 40,
         "name": "타코야끼",
         "category": ["jp"],
         "calorie": 400,
+        "price": "mid",
+        "image": "",
+        "likes": 0
+    },
+    {
+        "food_id": 801,
+        "name": "오코노미야끼",
+        "category": ["jp", "street"],
+        "calorie": 600,
         "price": "mid",
         "image": "",
         "likes": 0
@@ -477,15 +459,6 @@ module.exports = [
         "likes": 0
     },
     {
-        "food_id": 54,
-        "name": "낙지볶음",
-        "category": ["kr", "night"],
-        "calorie": 600,
-        "price": "mid",
-        "image": "",
-        "likes": 0
-    },
-    {
         "food_id": 55,
         "name": "햄버거",
         "category": ["us", "night"],
@@ -523,7 +496,7 @@ module.exports = [
     },
     {
         "food_id": 60,
-        "name": "포",
+        "name": "쌀국수",
         "category": ["as"],
         "calorie": 300,
         "price": "low",
@@ -684,15 +657,6 @@ module.exports = [
         "likes": 0
     },
     {
-        "food_id": 79,
-        "name": "춘권",
-        "category": ["cn"],
-        "calorie": 400,
-        "price": "low",
-        "image": "",
-        "likes": 0
-    },
-    {
         "food_id": 80,
         "name": "계란볶음밥",
         "category": ["cn"],
@@ -772,6 +736,42 @@ module.exports = [
         "price": "mid",
         "image": "",
         "likes": 0
-    }
+    },
+    {
+        "food_id": 802,
+        "name": "반쎄오",
+        "category": ["as", "street"],
+        "calorie": 450,
+        "price": "mid",
+        "image": "",
+        "likes": 0
+    },
+    {
+        "food_id": 803,
+        "name": "라볶이",
+        "category": ["kr", "street"],
+        "calorie": 500,
+        "price": "low",
+        "image": "",
+        "likes": 0
+    },
+    {
+        "food_id": 804,
+        "name": "토스트",
+        "category": ["kr", "street", "us"],
+        "calorie": 350,
+        "price": "low",
+        "image": "",
+        "likes": 0
+    },
+    {
+        "food_id": 805,
+        "name": "반미",
+        "category": ["as", "street"],
+        "calorie": 400,
+        "price": "mid",
+        "image": "",
+        "likes": 0
+    }        
 ];
 

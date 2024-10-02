@@ -11,6 +11,4 @@ const foodSchema =new mongoose.Schema({
     likes: { type: Number, default: 0 }
 });
 
-foodSchema.plugin(AutoIncrement, { inc_field: 'food_id' });
-
 module.exports = mongoose.model('Food', foodSchema);
