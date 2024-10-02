@@ -1,5 +1,4 @@
 const mongoose =require('mongoose');
-const AutoIncrement = require('mongoose-sequence')(mongoose);
 
 const foodSchema =new mongoose.Schema({
     food_id: { type: Number, required: true, unique: true },
