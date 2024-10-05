@@ -40,7 +40,7 @@ const kakaoCallback = async (req, res) => {
         const jwtToken = jwt.sign(
             { user_id: user.user_id },
             JWT_SECRET,
-            { expiresIn: '1m' } //테스트 용이
+            { expiresIn: '1h' } //테스트 용이
         )
 
         
