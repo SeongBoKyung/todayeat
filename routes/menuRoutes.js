@@ -5,7 +5,7 @@ const { likeMenu, dislikeMenu, getLikedFoods } = require('../controllers/likeCon
 const authenticateJWT = require('../middleware/authMiddleware');
 
 // 메뉴 추천
-router.get('/recommend', getFilteredMenu);
+router.get('/recommend', authenticateJWT.optional, getFilteredMenu);
 
 // 좋아요
 router.post('/like', authenticateJWT, likeMenu);
