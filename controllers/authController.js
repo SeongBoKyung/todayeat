@@ -1,6 +1,9 @@
 const kakaoAuthService = require('../services/kakaoAuthService');
-const User = require('../models/User');
 const jwt = require('jsonwebtoken');
+
+const User = require('../models/User');
+const Like = require('../models/Like');
+const Dislike = require('../models/Dislike');
 
 const JWT_SECRET = process.env.JWT_SECRET;
 
@@ -56,6 +59,7 @@ const kakaoCallback = async (req, res) => {
     }
 };
 
+// 로그인 상태 확인
 const loginStatus = (req, res) => {
     res.json({
         success: true,
@@ -64,6 +68,7 @@ const loginStatus = (req, res) => {
     })
 }
 
+// 로그아웃(프론트에서 jwt 토큰 무효화)
 const logout = (req, res) => {
     res.status(200).json({
         success: true,
@@ -71,9 +76,32 @@ const logout = (req, res) => {
     });
 };
 
+// 회원 탈퇴
+const deleteUser = async (req, res) => {
+    try {
+        const user_id = req.user.user_id; 
+
+        const user = await User.findOneAndDelete({ user_id });
+        if (!user) {
+            return res.status(404).json({ success: false, message: '회원 정보를 찾을 수 없습니다.' });
+        }
+
+        await Like.deleteMany({ user_id });
+        await Dislike.deleteMany({ user_id });
+
+        res.status(200).json({
+            success: true,
+            message: '회원탈퇴가 완료되었습니다. 관련 데이터가 모두 삭제되었습니다.',
+        });
+    } catch (error) {
+        res.status(500).json({ success: false, message: '회원탈퇴 중 오류가 발생했습니다.', error: error.message });
+    }
+};
+
 module.exports = {
     kakaoLogin,
     kakaoCallback,
     loginStatus,
-    logout
+    logout,
+    deleteUser
 };

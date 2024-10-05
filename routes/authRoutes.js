@@ -15,4 +15,7 @@ router.get('/status', authenticateJWT, authController.loginStatus);
 // 로그아웃
 router.post('/logout', authController.logout);
 
+// 회원탈퇴
+router.delete('/delete', authenticateJWT, authController.deleteUser);
+
 module.exports = router;
