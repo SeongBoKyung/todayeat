@@ -48,7 +48,7 @@ const getFilteredMenu = async (req, res) => {
             }
 
             if (priceRange !== 'all') {
-                query.price = priceRange; // low, mid, high
+                query.price = { $in: priceRange.split(',') };
             }
 
             if (user_id) {
