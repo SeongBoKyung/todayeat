@@ -69,4 +69,35 @@ const dislikeMenu = async (req, res) => {
     }
 };
 
+const getLikedFoods = async (req, res) => {
+    const user_id = req.user.user_id;
+
+    try {
+        const likedItems = await Like.find({ user_id });
+
+        // 좋아요 누른 음식이 없을 경우
+        if (likedItems.length === 0) {
+            return res.status(404).json({
+                success: false,
+                message: "좋아요 누른 음식이 없습니다."
+            });
+        }
+
+        const foodIds = likedItems.map(item => item.food_id);
+
+        const likedFoods = await Food.find({ food_id: { $in: foodIds } });
+
+        res.status(200).json({
+            success: true,
+            data: likedFoods
+        });
+    } catch (err) {
+        res.status(500).json({
+            success: false,
+            message: '좋아요 리스트 조회 중 오류 발생',
+            error: err.message
+        });
+    }
+};
+
 module.exports = { likeMenu, dislikeMenu, getLikedFoods };
