@@ -5,7 +5,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 500,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B9%84%EB%B9%94%EB%B0%A5.jpg",
         "likes": 0
     },
     {
@@ -14,7 +14,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 350,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EA%B9%80%EC%B9%98%EC%A0%84.jpg",
         "likes": 0
     },
     {
@@ -23,7 +23,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 450,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B6%88%EA%B3%A0%EA%B8%B0.jpg",
         "likes": 0
     },
     {
@@ -32,7 +32,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 600,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EA%B0%88%EB%B9%84%EC%B0%9C.webp",
         "likes": 0
     },
     {
@@ -41,7 +41,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 400,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%A0%9C%EC%9C%A1%EB%B3%B6%EC%9D%8C.jpeg",
         "likes": 0
     },
     {
@@ -50,7 +50,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 500,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%96%A1%EA%B0%88%EB%B9%84.webp",
         "likes": 0
     },
     {
@@ -59,7 +59,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 300,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%90%9C%EC%9E%A5%EC%B0%8C%EA%B0%9C.htm",
         "likes": 0
     },
     {
@@ -68,7 +68,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 250,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%88%9C%EB%91%90%EB%B6%80%EC%B0%8C%EA%B0%9C.jpg",
         "likes": 0
     },
     {
@@ -77,7 +77,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 400,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EA%B9%80%EC%B9%98%EB%B3%B6%EC%9D%8C%EB%B0%A5.webp",
         "likes": 0
     },
     {
@@ -86,7 +86,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 500,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B9%84%EB%B9%94%EB%B0%A5.jpg",
         "likes": 0
     },
     {
@@ -95,7 +95,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 450,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%9E%A1%EC%B1%84.webp",
         "likes": 0
     },
     {
@@ -104,7 +104,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 400,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%8C%8C%EC%A0%84.jpg",
         "likes": 0
     },
     {
@@ -113,7 +113,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 550,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%9A%8C%EB%8D%AE%EB%B0%A5.jpg",
         "likes": 0
     },
     {
@@ -122,7 +122,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 400,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%BD%A9%EB%82%98%EB%AC%BC%EA%B5%AD%EB%B0%A5.webp",
         "likes": 0
     },
     {
@@ -131,7 +131,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 350,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%98%A4%EC%A7%95%EC%96%B4%EB%B3%B6%EC%9D%8C.webp",
         "likes": 0
     },
     {
@@ -140,7 +140,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 500,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%8B%AD%EA%B0%88%EB%B9%84.jpg",
         "likes": 0
     },
     {
@@ -149,7 +149,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 300,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%86%8C%EA%B3%A0%EA%B8%B0%EB%AC%B4%EA%B5%AD.jpg",
         "likes": 0
     },
     {
@@ -158,7 +158,7 @@ module.exports = [
         "category": ["kr", "night"],
         "calorie": 500,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%B9%98%ED%82%A8.jpeg",
         "likes": 0
     },
     {
@@ -167,7 +167,7 @@ module.exports = [
         "category": ["kr", "street"],
         "calorie": 350,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%83%89%EB%A9%B4.jpg",
         "likes": 0
     },
     {
@@ -176,7 +176,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 500,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B6%80%EB%8C%80%EC%B0%8C%EA%B0%9C.webp",
         "likes": 0
     },
     {
@@ -185,7 +185,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 400,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%96%A1%EA%B5%AD.webp",
         "likes": 0
     },
     {
@@ -194,7 +194,7 @@ module.exports = [
         "category": ["kr", "street", "night"],
         "calorie": 280,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%96%A1%EB%B3%B6%EC%9D%B4.jpg",
         "likes": 0
     },
     {
@@ -203,7 +203,7 @@ module.exports = [
         "category": ["kr", "street"],
         "calorie": 147,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EA%B9%80%EB%B0%A5.jpg",
         "likes": 0
     },
     {
@@ -212,7 +212,7 @@ module.exports = [
         "category": ["kr", "street", "night"],
         "calorie": 385,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%9D%BC%EB%A9%B4.jpg",
         "likes": 0
     },
     {
@@ -221,7 +221,7 @@ module.exports = [
         "category": ["kr", "street"],
         "calorie": 280,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%88%9C%EB%8C%80.jpeg",
         "likes": 0
     },
     {
@@ -230,7 +230,7 @@ module.exports = [
         "category": ["kr", "street"],
         "calorie": 400,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%8A%80%EA%B9%80.jpg",
         "likes": 0
     },
     {
@@ -239,7 +239,7 @@ module.exports = [
         "category": ["kr", "street"],
         "calorie": 350,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EA%B9%80%EC%B9%98%EC%A0%84.jpg",
         "likes": 0
     },
     {
@@ -248,7 +248,7 @@ module.exports = [
         "category": ["kr", "street", "night"],
         "calorie": 450,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%8B%AD%EA%B0%95%EC%A0%95.jpg",
         "likes": 0
     },
     {
@@ -257,7 +257,7 @@ module.exports = [
         "category": ["kr", "street"],
         "calorie": 250,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%A7%8C%EB%91%90.webp",
         "likes": 0
     },
     {
@@ -266,7 +266,7 @@ module.exports = [
         "category": ["jp", "street"],
         "calorie": 300,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%83%89%EB%AA%A8%EB%B0%80.jpg",
         "likes": 0
     },
     {
@@ -275,7 +275,7 @@ module.exports = [
         "category": ["jp", "street"],
         "calorie": 500,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%8A%80%EA%B9%80%EC%9A%B0%EB%8F%99.jpg",
         "likes": 0
     },
     {
@@ -284,7 +284,7 @@ module.exports = [
         "category": ["jp"],
         "calorie": 350,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%B4%88%EB%B0%A5.jpeg",
         "likes": 0
     },
     {
@@ -293,7 +293,7 @@ module.exports = [
         "category": ["jp", "street", "night"],
         "calorie": 450,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%9D%BC%EB%A9%98.jpg",
         "likes": 0
     },
     {
@@ -302,7 +302,7 @@ module.exports = [
         "category": ["jp"],
         "calorie": 550,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EA%B7%9C%EB%8F%99.webp",
         "likes": 0
     },
     {
@@ -311,7 +311,7 @@ module.exports = [
         "category": ["jp"],
         "calorie": 600,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%8F%88%EB%B6%80%EB%A6%AC.webp",
         "likes": 0
     },
     {
@@ -320,7 +320,7 @@ module.exports = [
         "category": ["jp"],
         "calorie": 700,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EA%B0%80%EC%B8%A0%EB%8F%99.jpeg",
         "likes": 0
     },
     {
@@ -329,7 +329,7 @@ module.exports = [
         "category": ["jp"],
         "calorie": 400,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%83%80%EC%BD%94%EC%95%BC%EB%81%BC.webp",
         "likes": 0
     },
     {
@@ -338,7 +338,7 @@ module.exports = [
         "category": ["jp", "street"],
         "calorie": 600,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%98%A4%EC%BD%94%EB%85%B8%EB%AF%B8%EC%95%BC%EB%81%BC.jpg",
         "likes": 0
     },
     {
@@ -347,7 +347,7 @@ module.exports = [
         "category": ["jp", "street", "night"],
         "calorie": 400,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%95%BC%EB%81%BC%EC%86%8C%EB%B0%94.webp",
         "likes": 0
     },
     {
@@ -356,16 +356,7 @@ module.exports = [
         "category": ["jp"],
         "calorie": 300,
         "price": "high",
-        "image": "",
-        "likes": 0
-    },
-    {
-        "food_id": 43,
-        "name": "연어구이",
-        "category": ["jp"],
-        "calorie": 500,
-        "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%8A%A4%EC%8B%9C%EB%A1%A4.webp",
         "likes": 0
     },
     {
@@ -374,7 +365,7 @@ module.exports = [
         "category": ["jp"],
         "calorie": 500,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B6%80%ED%83%80%EB%8F%99.jpeg",
         "likes": 0
     },
     {
@@ -383,7 +374,7 @@ module.exports = [
         "category": ["kr", "night"],
         "calorie": 500,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B3%B4%EC%8C%88.jpg",
         "likes": 0
     },
     {
@@ -392,7 +383,7 @@ module.exports = [
         "category": ["kr", "night"],
         "calorie": 400,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%8B%AD%EB%B0%9C.jpg",
         "likes": 0
     },
     {
@@ -401,7 +392,7 @@ module.exports = [
         "category": ["kr", "night"],
         "calorie": 700,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%82%99%EA%B3%B1%EC%83%88.jpeg",
         "likes": 0
     },
     {
@@ -410,7 +401,7 @@ module.exports = [
         "category": ["kr", "night"],
         "calorie": 800,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EA%B3%B1%EC%B0%BD.jpg",
         "likes": 0
     },
     {
@@ -419,7 +410,7 @@ module.exports = [
         "category": ["kr", "night"],
         "calorie": 600,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%95%B4%EB%AC%BC%EC%B0%9C.jpeg",
         "likes": 0
     },
     {
@@ -428,7 +419,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 500,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%B9%BC%EA%B5%AD%EC%88%98.jpg",
         "likes": 0
     },
     {
@@ -437,7 +428,7 @@ module.exports = [
         "category": ["kr"],
         "calorie": 400,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%AB%84%EB%A9%B4.jpg",
         "likes": 0
     },
     {
@@ -446,7 +437,7 @@ module.exports = [
         "category": ["us", "night"],
         "calorie": 900,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%94%BC%EC%9E%90.jpg",
         "likes": 0
     },
     {
@@ -455,7 +446,7 @@ module.exports = [
         "category": ["kr", "night"],
         "calorie": 1000,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%A1%B1%EB%B0%9C.jpg",
         "likes": 0
     },
     {
@@ -464,7 +455,7 @@ module.exports = [
         "category": ["us", "night"],
         "calorie": 600,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%96%84%EB%B2%84%EA%B1%B0.jpg",
         "likes": 0
     },
     {
@@ -473,7 +464,7 @@ module.exports = [
         "category": ["jp", "night", "kr"],
         "calorie": 200,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%9A%8C.jpeg",
         "likes": 0
     },
     {
@@ -482,7 +473,7 @@ module.exports = [
         "category": ["kr", "night", "as", "cn"],
         "calorie": 600,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B3%B6%EC%9D%8C%EB%B0%A5.jpg",
         "likes": 0
     },
     {
@@ -491,7 +482,7 @@ module.exports = [
         "category": ["us", "night"],
         "calorie": 800,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B8%8C%EB%A6%AC%EB%98%90.jpg",
         "likes": 0
     },
     {
@@ -500,7 +491,7 @@ module.exports = [
         "category": ["as"],
         "calorie": 300,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%8C%80%EA%B5%AD%EC%88%98.png",
         "likes": 0
     },
     {
@@ -509,7 +500,7 @@ module.exports = [
         "category": ["as"],
         "calorie": 500,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%9D%B8%EB%8F%84%EC%B9%B4%ED%8E%98.jpg",
         "likes": 0
     },
     {
@@ -518,7 +509,7 @@ module.exports = [
         "category": ["as"],
         "calorie": 450,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B3%B6%EC%9D%8C%EB%A9%B4.jpg",
         "likes": 0
     },
     {
@@ -527,7 +518,7 @@ module.exports = [
         "category": ["us", "as"],
         "calorie": 200,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%83%80%EC%BD%94.jpg",
         "likes": 0
     },
     {
@@ -536,7 +527,7 @@ module.exports = [
         "category": ["us", "as"],
         "calorie": 300,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%80%98%EC%82%AC%EB%94%94%EC%95%84.jpg",
         "likes": 0
     },
     {
@@ -545,7 +536,7 @@ module.exports = [
         "category": ["eu"],
         "calorie": 700,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%8C%8C%EC%8A%A4%ED%83%80.jpg",
         "likes": 0
     },
     {
@@ -554,7 +545,7 @@ module.exports = [
         "category": ["eu"],
         "calorie": 600,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%A6%AC%EC%A1%B0%EB%98%90.jpg",
         "likes": 0
     },
     {
@@ -563,7 +554,7 @@ module.exports = [
         "category": ["eu"],
         "calorie": 800,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%8A%A4%ED%85%8C%EC%9D%B4%ED%81%AC.jpg",
         "likes": 0
     },
     {
@@ -572,7 +563,7 @@ module.exports = [
         "category": ["eu"],
         "calorie": 300,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%83%90%EB%9F%AC%EB%93%9C.jpg",
         "likes": 0
     },
     {
@@ -581,7 +572,7 @@ module.exports = [
         "category": ["cn"],
         "calorie": 600,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%A7%9C%EC%9E%A5%EB%A9%B4.jpeg",
         "likes": 0
     },
     {
@@ -590,7 +581,7 @@ module.exports = [
         "category": ["cn"],
         "calorie": 700,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%A7%AC%EB%BD%95.jpeg",
         "likes": 0
     },
     {
@@ -599,7 +590,7 @@ module.exports = [
         "category": ["cn"],
         "calorie": 800,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%83%95%EC%88%98%EC%9C%A1.jpeg",
         "likes": 0
     },
     {
@@ -608,7 +599,7 @@ module.exports = [
         "category": ["cn"],
         "calorie": 500,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%9C%A0%EB%A6%B0%EA%B8%B0.webp",
         "likes": 0
     },
     {
@@ -617,7 +608,7 @@ module.exports = [
         "category": ["cn"],
         "calorie": 400,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%A7%88%ED%8C%8C%EB%91%90%EB%B6%80.jpeg",
         "likes": 0
     },
     {
@@ -626,7 +617,7 @@ module.exports = [
         "category": ["cn"],
         "calorie": 500,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EA%B3%A0%EC%B6%94%EC%9E%A1%EC%B1%84.jpeg",
         "likes": 0
     },
     {
@@ -635,7 +626,7 @@ module.exports = [
         "category": ["cn"],
         "calorie": 350,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%96%91%EC%9E%A5%ED%94%BC.jpeg",
         "likes": 0
     },
     {
@@ -644,7 +635,7 @@ module.exports = [
         "category": ["cn"],
         "calorie": 600,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%8C%94%EB%B3%B4%EC%B1%84.jpeg",
         "likes": 0
     },
     {
@@ -653,16 +644,7 @@ module.exports = [
         "category": ["cn"],
         "calorie": 1200,
         "price": "high",
-        "image": "",
-        "likes": 0
-    },
-    {
-        "food_id": 80,
-        "name": "계란볶음밥",
-        "category": ["cn"],
-        "calorie": 500,
-        "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B6%81%EA%B2%BD%EC%98%A4%EB%A6%AC.jpeg",
         "likes": 0
     },
     {
@@ -671,7 +653,7 @@ module.exports = [
         "category": ["jp", "kr"],
         "calorie": 600,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%8F%88%EA%B0%80%EC%8A%A4.jpg",
         "likes": 0
     },
     {
@@ -680,7 +662,7 @@ module.exports = [
         "category": ["us"],
         "calorie": 350,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%87%A8%EB%81%BC.jpg",
         "likes": 0
     },
     {
@@ -689,7 +671,7 @@ module.exports = [
         "category": ["as"],
         "calorie": 500,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%82%98%EC%8B%9C%EA%B3%A0%EB%9E%AD.jpeg",
         "likes": 0
     },
     {
@@ -698,7 +680,7 @@ module.exports = [
         "category": ["as"],
         "calorie": 250,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%98%A0%EC%96%8C%EA%BF%8D.jpg",
         "likes": 0
     },
     {
@@ -707,7 +689,7 @@ module.exports = [
         "category": ["cn", "night"],
         "calorie": 400,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%A7%88%EB%9D%BC%ED%83%95.jpeg",
         "likes": 0
     },
     {
@@ -716,7 +698,7 @@ module.exports = [
         "category": ["cn"],
         "calorie": 600,
         "price": "high",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%96%91%EA%BC%AC%EC%B9%98.jpg",
         "likes": 0
     },
     {
@@ -725,7 +707,7 @@ module.exports = [
         "category": ["as"],
         "calorie": 350,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%8C%9F%ED%83%80%EC%9D%B4.jpeg",
         "likes": 0
     },
     {
@@ -734,7 +716,7 @@ module.exports = [
         "category": ["us", "jp", "kr"],
         "calorie": 450,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EC%98%A4%EB%AF%80%EB%9D%BC%EC%9D%B4%EC%8A%A4.jpg",
         "likes": 0
     },
     {
@@ -743,7 +725,7 @@ module.exports = [
         "category": ["as", "street"],
         "calorie": 450,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B0%98%EC%8E%84%EC%98%A4.jpeg",
         "likes": 0
     },
     {
@@ -752,7 +734,7 @@ module.exports = [
         "category": ["kr", "street"],
         "calorie": 500,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%9D%BC%EB%B3%B6%EC%9D%B4.jpg",
         "likes": 0
     },
     {
@@ -761,7 +743,7 @@ module.exports = [
         "category": ["kr", "street", "us"],
         "calorie": 350,
         "price": "low",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%ED%86%A0%EC%8A%A4%ED%8A%B8.jpg",
         "likes": 0
     },
     {
@@ -770,8 +752,18 @@ module.exports = [
         "category": ["as", "street"],
         "calorie": 400,
         "price": "mid",
-        "image": "",
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B0%98%EB%AF%B8.jpg",
         "likes": 0
-    }        
+    },
+    {
+        "food_id": 1400,
+        "name": "분짜",
+        "category": ["as"],  // 베트남 음식이니 'vn'로 설정
+        "calorie": 450,
+        "price": "mid",  // 중간 가격대
+        "image": "https://todateat-image-bucket.s3.ap-northeast-2.amazonaws.com/food_image/%EB%B6%84%EC%A7%9C.jpeg",
+        "likes": 0,
+        "__v": 0
+    }           
 ];
 

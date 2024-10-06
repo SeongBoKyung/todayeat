@@ -12,12 +12,15 @@ const likeMenu = async (req, res) => {
         const existingLike = await Like.findOne({ user_id, food_id });
         const existingDislike = await Dislike.findOne({ user_id, food_id});
 
-        if(existingLike) { // 좋아요 해놓은 음식일 경우 => 좋아요 취소
+        if(existingLike) {
             await Like.deleteOne({ user_id, food_id });
             await Food.updateOne({ food_id }, { $inc: { likes: -1 } });
-            return res.status(200).json({ success: true, message: '좋아요가 취소되었습니다.' });
-        }else{ // 좋아요 안 해놓은 음식일 경우 => 좋아요 적용
-            if(existingDislike) {  // 같은 음식 싫어요 눌러놨을 경우 => 싫어요 취소
+            return res.status(200).json({ 
+                success: true, 
+                message: '좋아요가 취소되었습니다.' 
+            });
+        }else{
+            if(existingDislike) {
                 await Dislike.deleteOne({ user_id, food_id });
             }
 
@@ -26,10 +29,17 @@ const likeMenu = async (req, res) => {
 
             await Food.updateOne({ food_id }, { $inc: { likes: 1 } });
 
-            res.status(200).json({ success: true, message: '좋아요가 반영되었습니다. 마이 리스트에서 확인하실 수 있습니다.' });
+            res.status(200).json({ 
+                success: true, 
+                message: '좋아요가 반영되었습니다. 마이 리스트에서 확인할 수 있습니다.' 
+            });
         }
     } catch (err) {
-        res.status(500).json({ success: false, message: '좋아요 처리 중 오류 발생', err: err.message });
+        res.status(500).json({ 
+            success: false, 
+            message: '좋아요 처리 중 오류 발생', 
+            err: err.message 
+        });
     }
 };
 
@@ -74,7 +84,10 @@ const dislikeMenu = async (req, res) => {
         redisClient.setEx(cacheKeyDislikedItems, 3600, JSON.stringify(dislikedItems));
         console.log('싫어요 취소 후 Redis 갱신:', dislikedItems);
 
-        return res.status(200).json({ success: true, message: message });
+        return res.status(200).json({ 
+            success: true, 
+            message: message 
+        });
     } catch (err) {
         console.error('싫어요 처리 중 오류 발생:', err.stack);  // 에러 로그 출력
         res.status(500).json({ 
@@ -93,8 +106,8 @@ const getLikedFoods = async (req, res) => {
 
         // 좋아요 누른 음식이 없을 경우
         if (likedItems.length === 0) {
-            return res.status(404).json({
-                success: false,
+            return res.status(200).json({
+                success: true,
                 message: "좋아요 누른 음식이 없습니다."
             });
         }

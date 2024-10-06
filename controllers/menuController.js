@@ -58,7 +58,7 @@ const getFilteredMenu = async (req, res) => {
         const cachedFilteredMenu = await redisClient.get(cacheKeyFilteredMenu);
         let filteredMenu = JSON.parse(cachedFilteredMenu);
 
-        let dislikedItems = {};
+        let dislikedItems = [];
 
         if (user_id !== 'guest') {
             const cachedDislikedItems = await redisClient.get(cacheKeyDislikedItems);
@@ -84,8 +84,6 @@ const getFilteredMenu = async (req, res) => {
             });
         }
 
-        let message = "";
-
         // Redis에서 중복 추천 방지 리스트 가져옴
         const cachedExcludedItems = await redisClient.get(cacheKeyExcludedItems);
         let excludedItems = cachedExcludedItems ? JSON.parse(cachedExcludedItems) : [];
@@ -96,7 +94,6 @@ const getFilteredMenu = async (req, res) => {
         if (remainingMenu.length === 0) {
             excludedItems = [];  // 초기화
             await redisClient.del(cacheKeyExcludedItems);
-            message = "설정하신 카테고리의 음식을 모두 확인하셨습니다. 설정하신 카테고리에 맞는 음식들을 재추천합니다.";
 
             remainingMenu = filteredMenu;
         }
@@ -109,11 +106,11 @@ const getFilteredMenu = async (req, res) => {
 
         res.json({
             success: true,
-            message: message,
+            message: "메뉴 추천 성공",
             menu: nextMenu
         });
     } catch (err) {
-        console.error('메뉴 추천 중 오류 발생:', err.stack);  // 에러 로그 출력
+        console.error('메뉴 추천 중 오류 발생:', err.stack);
         res.status(500).json({
             success: false,
             message: "메뉴 추천 중 오류 발생",

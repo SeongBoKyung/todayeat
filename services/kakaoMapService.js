@@ -12,7 +12,7 @@ const kakaoApiClient = axios.create({
 
 const searchStore = async (longitude, latitude, radius, menu) => {
     try {
-        // case 1. 반경이 너무 큰 경우
+        // 반경이 너무 큰 경우
         if (radius > 20000) { 
             throw new Error('반경이 너무 큽니다. 최대 반경은 20km입니다.');
         }
@@ -25,7 +25,7 @@ const searchStore = async (longitude, latitude, radius, menu) => {
             }
         });
 
-        // case 2. 조건에 맞는 매장이 없는 경우
+        // 조건에 맞는 매장이 없는 경우
         if (response.data.documents.length === 0) {
             throw new Error('조건에 맞는 매장이 없습니다.');
         }

@@ -13,7 +13,7 @@ router.get('/login/callback', authController.kakaoCallback);
 router.get('/status', authenticateJWT, authController.loginStatus);
 
 // 로그아웃
-router.post('/logout', authController.logout);
+router.post('/logout', authenticateJWT, authController.logout);
 
 // 회원탈퇴
 router.delete('/delete', authenticateJWT, authController.deleteUser);

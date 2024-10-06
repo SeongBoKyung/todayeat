@@ -8,8 +8,8 @@ connectDB();
 
 const seedDB = async () => {
     try {
-        await Food.deleteMany({});                            // 기존 데이터를 삭제
-        const uploadedData = await Food.insertMany(testSeed); // 새로운 데이터 삽입
+        await Food.deleteMany({});            
+        const uploadedData = await Food.insertMany(seed);
         
         console.log(`Total items uploaded: ${uploadedData.length}`);
         console.log('Complete to upload all of the seed');

@@ -47,12 +47,22 @@ const getStoreSearch = async (req, res) => {
         res.json({ success: true, places });
     } catch (error) {
         if (error.message === '반경이 너무 큽니다. 최대 반경은 20km입니다.') {
-            return res.status(400).json({ success: false, message: error.message });
+            return res.status(400).json({ 
+                success: false, 
+                message: error.message 
+            });
         }
         if (error.message === '조건에 맞는 매장이 없습니다.') {
-            return res.status(404).json({ success: false, message: error.message });
+            return res.status(404).json({ 
+                success: false, 
+                message: error.message 
+            });
         }
-        res.status(500).json({ success: false, message: '매장 정보를 가져오는 중 오류가 발생했습니다.', error: error.message });
+        res.status(500).json({ 
+            success: false, 
+            message: '매장 정보를 가져오는 중 오류가 발생했습니다.', 
+            error: error.message 
+        });
     }
 };
 

@@ -1,4 +1,3 @@
-const { Account } = require('aws-sdk');
 const axios = require('axios');
 require('dotenv').config();
 
